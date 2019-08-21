@@ -1,0 +1,4 @@
+sudo npm install -g create-react-app
+create-react-app <application-name>
+cd <application-name>
+npm start
