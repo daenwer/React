@@ -8,7 +8,8 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            name: 'React'
+            name: 'React',
+            buttons: ['success', 'info', 'warning', 'danger', 'default'],
         };
     }
 
@@ -20,12 +21,16 @@ class App extends Component {
                     <h2>Welcome to React</h2>
                 </div>
                 <div className='Inline'>
-                    <Button text='success'/>
-                    <Button text='info'/>
-                    <Button text='warning'/>
-                    <Button text='danger'/>
-                    <Button text='default'/>
+                    {/*<Button text='success'/>*/}
+                    {/*<Button text='info'/>*/}
+                    {/*<Button text='warning'/>*/}
+                    {/*<Button text='danger'/>*/}
+                    {/*<Button text='default'/>*/}
+                    {this.state.buttons.map(button => (
+                        <Button text={button} />
+                    ))}
                 </div>
+
             </div>
         );
     }
