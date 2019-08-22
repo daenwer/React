@@ -3,4 +3,9 @@
 sudo npm install -g create-react-app
 create-react-app <application-name>
 cd <application-name>
+
+после обновления с github если бодавлены новые папки:
+sudo npm install
+npm audit fix
+
 npm start
