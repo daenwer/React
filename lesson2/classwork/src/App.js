@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Button from './Button';
+import Button from './components/button/Button';
 
 class App extends Component {
 
@@ -21,13 +21,8 @@ class App extends Component {
                     <h2>Welcome to React</h2>
                 </div>
                 <div className='Inline'>
-                    {/*<Button text='success'/>*/}
-                    {/*<Button text='info'/>*/}
-                    {/*<Button text='warning'/>*/}
-                    {/*<Button text='danger'/>*/}
-                    {/*<Button text='default'/>*/}
                     {this.state.buttons.map(button => (
-                        <Button text={button} />
+                        <Button >{button}</Button>
                     ))}
                 </div>
 
