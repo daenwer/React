@@ -27,12 +27,13 @@ class App extends Component {
             memory: [],
             memoryDisplay: false,
             number: [],
-            result: [],
+            result: [1, 2, 3],
             act: '',
             input: 0,
         };
 
         this.changeItem = this.changeItem.bind(this);
+        this.changeNumber = this.changeNumber.bind(this);
     }
 
     changeItem(id) {
