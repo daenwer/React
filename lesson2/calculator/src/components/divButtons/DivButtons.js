@@ -14,9 +14,7 @@ class DivButtons extends React.Component {
 
     render() {
         return (
-            <div>
-                <button className='divBtn' disabled={this.props.disabled} onClick={this.lift}>{this.props.name}</button>
-            </div>
+                <button className='divBtn btn' disabled={this.props.disabled} onClick={this.lift}>{this.props.name}</button>
         )
     }
 }

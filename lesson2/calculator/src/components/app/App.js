@@ -35,7 +35,9 @@ class App extends Component {
         this.changeItem = this.changeItem.bind(this);
         this.changeNumber = this.changeNumber.bind(this);
     }
+    changeNumber() {
 
+    }
     changeItem(id) {
         console.log(id);
     }
