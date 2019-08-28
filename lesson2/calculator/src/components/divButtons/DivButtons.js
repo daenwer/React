@@ -1,5 +1,4 @@
 import React from 'react';
-import './DivButtons.css';
 
 class DivButtons extends React.Component {
 
@@ -14,7 +13,7 @@ class DivButtons extends React.Component {
 
     render() {
         return (
-                <button className='divBtn btn' disabled={this.props.disabled} onClick={this.lift}>{this.props.name}</button>
+                <button className='btn' disabled={this.props.disabled} onClick={this.lift}>{this.props.name}</button>
         )
     }
 }
