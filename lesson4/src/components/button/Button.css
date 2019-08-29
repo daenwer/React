@@ -1,0 +1,21 @@
+.buttons {
+    width: 90%;
+    text-align: right;
+    margin-top: 5px;
+    align-self: flex-end;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.btn {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    flex: 1;
+    height: 35px;
+}
+
+.btn:not(:last-child) {
+    margin-right: 5px;
+}
