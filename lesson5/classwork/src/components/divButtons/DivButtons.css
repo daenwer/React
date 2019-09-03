@@ -1,0 +1,24 @@
+/*.divButtons {*/
+/*    width: 90%;*/
+/*    text-align: right;*/
+/*    margin-top: 5px;*/
+/*    align-self: flex-end;*/
+/*    display: inline-flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+.divBtn {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    flex: 1;
+    /*TODO: почему не работают flex*/
+    height: 35px;
+    width: 59px;
+    margin: 0 2px;
+}
+
+.divBtn:not(:last-child) {
+    margin-right: 5px;
+}

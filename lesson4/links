@@ -1,0 +1,15 @@
+Код прикреплен.
+
+Читаем доки
+Методы жизненного цикла https://reactjs.org/docs/state-and-lifecycle.html
+Обработка ошибок в render и методах жизненного цикла https://reactjs.org/docs/error-boundaries.html
+Refs https://reactjs.org/docs/refs-and-the-dom.html
+
+Реакт быстро, глава 5
+Реакт в действии
+
+Fetch API
+http://learn.javascript.ru/fetch
+
+Если еще не знаете, разберитесь с промисами, они нужны для работы с Fetch
+http://learn.javascript.ru/async
